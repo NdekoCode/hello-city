@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'About Us | Hello city') {{-- Pas de @endsection car on a un contenu assez simple --}}
+@section('title', 'About Us | ' . config('app.name')) {{-- Pas de @endsection car on a un contenu assez simple --}}
 
 @section('content')
     <h1>A propos de nous</h1>

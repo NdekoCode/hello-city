@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    Page d'accueil | Hello city
+    Page d'accueil | {{ config('app.name') }}
 
     {{-- @stop|@endsection c'est la meme chose --}}
 @stop
