@@ -1,4 +1,7 @@
 @extends('layout')
+
+@section('title', 'About Us | Hello city') {{-- Pas de @endsection car on a un contenu assez simple --}}
+
 @section('content')
     <h1>A propos de nous</h1>
     <p>Build with ❤ &hearts; ♥ By Arick Bulakali</p>
