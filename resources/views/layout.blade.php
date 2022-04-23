@@ -1,6 +1,9 @@
 @include('partials.header')
-<div class="container">
+<section class="flex justify-center items-center min-h-screen justify-between flex-col py-6">
 
-    @yield('content')
-</div>
-@include('partials.footer')
+    <main class="container max-w-7x mx-auto" role="main">
+
+        @yield('content')
+    </main>
+    @include('partials.footer')
+</section>
