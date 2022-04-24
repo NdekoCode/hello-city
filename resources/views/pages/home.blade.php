@@ -1,10 +1,4 @@
-@extends('layouts.layout')
-
-@section('title')
-    Page d'accueil | {{ config('app.name') }}
-
-    {{-- @stop|@endsection c'est la meme chose --}}
-@stop
+@extends('layouts.layout',['pageTitle'=>"Page d'accueil | ".config('app.name')])
 
 @section('content')
     <div class="flex justify-center items-center flex-col">

@@ -1,6 +1,4 @@
-@extends('layouts.layout')
-
-@section('title', 'About Us | ' . config('app.name')) {{-- Pas de @endsection car on a un contenu assez simple --}}
+@extends('layouts.layout',['pageTitle'=>'About Us | ' . config('app.name')])
 
 @section('content')
     <div class="flex justify-center items-center flex-col rounded-full">
